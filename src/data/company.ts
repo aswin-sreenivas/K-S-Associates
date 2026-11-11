@@ -23,8 +23,6 @@ import royalVillaSitePlan from '@/src/assets/pdf_extracts/royalvilla_siteplan.pn
 import royalVillaFloorPlan from '@/src/assets/pdf_extracts/royalvilla_floorplan.png';
 
 // High-end supporting engineering & credentials visuals
-import heroImg1 from '@/src/assets/images/ks_hero_render_1793621473732.jpg';
-import heroImg2 from '@/src/assets/images/ks_hero_exterior_2_1793621489483.jpg';
 import constructionRccImg from '@/src/assets/images/ks_construction_rcc_1793621557021.jpg';
 import surveyingSiteImg from '@/src/assets/images/ks_surveying_site_1793621570744.jpg';
 import genericCadDrawing from '@/src/assets/images/ks_cad_drawing_1793621586595.jpg';
@@ -349,64 +347,6 @@ export const PROJECTS: ProjectItem[] = [
     ],
     description:
       'A prestigious contemporary villa proposal for Mr. Abdul Latheef and the Royal Group at Feroke. The actual 3D render displays the prominent "Royal Villa" entrance pillar, rich tropical cantilevered timber soffits, lush vertical hanging planters along the upper balcony, and a soaring double-height glass stair volume.',
-  },
-  {
-    id: 'selmec-iti-tuneri',
-    title: 'Govt. ITI Building SC Development',
-    clientRef: 'Selmec Engineering Construction (ISO 9001:2015)',
-    projectType: 'Structural Works',
-    category: 'construction',
-    status: 'Completed',
-    location: 'Tuneri, Kozhikode District, Kerala',
-    verified: true,
-    image: constructionRccImg,
-    availableMaterials: [
-      'Subcontract Experience Certificate (Dated 30 April 2026)',
-      'Approved Structural Working Drawings',
-      'RCC Execution Specifications',
-    ],
-    subcontractDetails: {
-      certifyingAuthority: 'Selmec Engineering Construction (ISO 9001:2015 Firm)',
-      certificationDate: '30 April 2026',
-      mainContractorNotes:
-        'Certified that K S Associates successfully carried out subcontract structural works including RCC foundations, columns, beams, and slabs in strict conformity with approved technical drawings, structural engineering specifications, and scheduled project milestones.',
-    },
-    description:
-      'Documented subcontract structural works executed for Selmec Engineering Construction on the Government ITI Building project for SC Development at Tuneri, Kerala. The engineering scope encompassed reinforced cement concrete (RCC) sub-structure foundations, structural column casting, floor beams, and suspended roof slabs.',
-  },
-  {
-    id: 'architectural-render-study-01',
-    title: 'Tropical Modernist Residence Study',
-    projectType: 'Architectural Visualization',
-    category: '3d-design',
-    status: 'Proposed',
-    location: 'Kerala',
-    verified: true,
-    image: heroImg1,
-    availableMaterials: [
-      'Architectural 3D Exterior Render',
-      'Material Specification Study',
-      'Landscape Lighting Scheme',
-    ],
-    description:
-      'Signature exterior visualization demonstrating K S Associates’ capability in tropical modernist architecture. The render balances cantilevers, linear timber shading screens, floor-to-ceiling high-performance glazing, and integrated tropical greenery.',
-  },
-  {
-    id: 'architectural-render-study-02',
-    title: 'Cantilevered Pavilion Estate Study',
-    projectType: 'Architectural Visualization',
-    category: '3d-design',
-    status: 'Proposed',
-    location: 'Kerala',
-    verified: true,
-    image: heroImg2,
-    availableMaterials: [
-      'Architectural 3D Exterior Elevation',
-      'Sunset Lighting Simulation',
-      'Stone & Concrete Facade Study',
-    ],
-    description:
-      'High-end architectural elevation and 3D visualization showcasing an extended horizontal concrete cantilever, dark powder-coated metal louvers, natural granite veneer, and warm ambient evening lighting.',
   },
   {
     id: 'ponnani-residential-archival',
